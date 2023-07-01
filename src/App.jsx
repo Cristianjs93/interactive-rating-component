@@ -1,8 +1,8 @@
-import Rating from "./Componentes/Rating/Rating";
+import Box from "./components/Box/Box";
 import "./App.scss";
 
 function App() {
-  return <Rating />;
+  return <Box />;
 }
 
 export default App;

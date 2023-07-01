@@ -14,12 +14,12 @@
   }
 
   .like-container__star::before {
-    content: "\2606"; /* Se cambia el contenido por el carácter de estrella rellena (\2606) en lugar de estrella vacia */
+    content: "\2606";
     position: absolute;
     opacity: 0;
     transition: opacity 0.3s;
     cursor: pointer;
-    color: hsl(25, 97%, 53%);
+    color: var(--main-color);
   }
 
   .like-container__star:hover::before {
@@ -29,7 +29,7 @@
   }
 
   .like-container__star--liked {
-    color: hsl(25, 97%, 53%);
     cursor: pointer;
+    color: var(--main-color);
   }
 }

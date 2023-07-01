@@ -1,0 +1,17 @@
+@import "../../styles/mixins.scss";
+
+.container {
+  @include containers;
+
+  .content__title {
+    font-weight: 400;
+    color: var(--white);
+    margin-bottom: 10px;
+  }
+
+  .content__paragraph {
+    font-size: 15px;
+    font-weight: 400;
+    color: var(--medium-grey);
+  }
+}
